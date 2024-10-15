@@ -2,3 +2,9 @@ Implement fetchWithTimeout (url, timeinmillisecond) that takes the url and
 the time as input and returns a promise. This promise should fail if the API is not
 completed in the specified time in millisecond. If it is completed. ten the promise
 should resolve with the apis result.
+
+
+
+Promise.race is a method in JavaScript that takes an iterable (usually an array) of promises and returns a single promise 
+that resolves or rejects as soon as one of the input promises resolves or rejects. 
+It effectively “races” all the promises and returns the result of the fastest one, whether it fulfills or fails.
