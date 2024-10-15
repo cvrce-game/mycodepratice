@@ -1,0 +1,4 @@
+Implement fetchWithTimeout (url, timeinmillisecond) that takes the url and
+the time as input and returns a promise. This promise should fail if the API is not
+completed in the specified time in millisecond. If it is completed. ten the promise
+should resolve with the apis result.
