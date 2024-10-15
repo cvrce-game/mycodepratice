@@ -1,0 +1,3 @@
+Implement an in-memory search engine where multiple documents could be stored
+under a particular namespace and search on them and sort the search results by passing
+the orderBy parameter.
